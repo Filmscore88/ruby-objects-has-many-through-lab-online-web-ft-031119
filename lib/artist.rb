@@ -12,7 +12,7 @@ def self.all
 end 
 
 def new_song(song_name, genre)
-  
+  Song.new()
   
   
 end
