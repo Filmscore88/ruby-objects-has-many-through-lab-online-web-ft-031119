@@ -20,5 +20,8 @@ def songs
 end 
 
 def genres 
-  self.songs.collect{|songs| songs.genres
+  self.songs.collect{|songs| songs.genre}
+end 
+
+
 end
