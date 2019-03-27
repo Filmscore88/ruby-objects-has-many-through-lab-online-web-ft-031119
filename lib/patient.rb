@@ -8,5 +8,6 @@ end
 
 
 def new_appointment(doctor,date)
+  Appointment.new()
   
 end 
