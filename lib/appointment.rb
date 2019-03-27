@@ -1,5 +1,5 @@
 class Appointment
-attr_accessor :name, :artist, :genre
+attr_accessor :date, :patient, :doctor
 @@all=[]
 
 def self.all
@@ -8,8 +8,8 @@ end
 
 def initialize(date, patient, doctor)
 @date=date
-@ar=artist
-@genre=genre
+@patient=patient
+@doctor=doctor
 @@all << self
 end 
 
