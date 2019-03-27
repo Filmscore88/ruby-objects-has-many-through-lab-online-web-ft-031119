@@ -1,22 +1,16 @@
-class Appointment 
+class Appointment
+attr_accessor :name, :artist, :genre
 @@all=[]
 
 def self.all
   @@all 
 end 
 
-attr_accessor :name
-
-def initialize(name)
-  @name= name 
-  @@all << self 
+def initialize(date, patient, doctor)
+@date=date
+@ar=artist
+@genre=genre
+@@all << self
 end 
 
-def songs 
-  .all.select {|song| song.genre == self }
-end 
-
-def artists 
-  self.songs.collect{|songs| songs.artist}
-end 
 end
