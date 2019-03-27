@@ -19,3 +19,4 @@ end
 def artists 
   self.songs.collect{|songs| songs.artists}
 end 
+end
