@@ -6,7 +6,7 @@ def self.all
   @@all 
 end 
 
-def initialize(patient, date, doctor)
+def initialize(patient, doctor, date)
 @date=date
 @patient=patient
 @doctor=doctor
