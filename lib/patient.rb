@@ -7,7 +7,7 @@ def self.all
 end 
 
 
-def new_appointment(doctor,date)
+def new_appointment()
   Appointment.new()
   
 end 
