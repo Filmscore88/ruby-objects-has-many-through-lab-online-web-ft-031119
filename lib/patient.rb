@@ -3,7 +3,7 @@ class Patient
 attr_accessor :name, :date
 
 def self.all
-  @all 
+  @@all 
 end 
 
 def initialize(name)
